@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "ageofmechanic:flour"
+  },
+  "result": "minecraft:bread",
+  "experience": 0.35,
+  "cookingtime": 150
+}

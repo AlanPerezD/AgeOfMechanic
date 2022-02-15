@@ -20,6 +20,9 @@ public class ModItems{
     public static final Item FLINT_HOE = registerItem("flint_hoe",
             new Item(new FabricItemSettings().group(ModItemGroup.NEOLITHIC)));
 
+    public static final Item FLOUR = registerItem("flour",
+            new Item(new FabricItemSettings().group(ModItemGroup.NEOLITHIC)));
+
     public static Item registerItem(String name, Item item){
         return net.minecraft.util.registry.Registry.register(Registry.ITEM, new Identifier(AgeOfMechanic.MOD_ID, name), item);
     }
