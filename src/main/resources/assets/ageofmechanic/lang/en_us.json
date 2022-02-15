@@ -1,3 +1,8 @@
 {
-  "item.ageofmechanic.flint_pickaxe": "Flint Pickaxe"
+  "item.ageofmechanic.flint_pickaxe": "Flint Pickaxe",
+  "item.ageofmechanic.flint_axe": "Flint Axe",
+  "item.ageofmechanic.flint_shovel": "Flint Shovel",
+  "item.ageofmechanic.flint_hoe": "Flint Hoe",
+
+  "itemGroup.ageofmechanic.neolithic": "Neolithic"
 }

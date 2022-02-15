@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "PS",
+    "P "
+  ],
+  "key": {
+    "P": "minecraft:stick",
+    "S": "minecraft:flint"
+  },
+  "result": {
+    "item": "ageofmechanic:flint_axe"
+  }
+}
