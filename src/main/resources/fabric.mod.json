@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "ageofmechanic",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Age Of Mechanic",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Toni And Sub"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.ageofmechanic.AgeOfMechanic"
     ]
   },
   "mixins": [
