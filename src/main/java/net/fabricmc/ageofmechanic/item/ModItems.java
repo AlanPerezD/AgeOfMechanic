@@ -23,6 +23,9 @@ public class ModItems{
     public static final Item FLOUR = registerItem("flour",
             new Item(new FabricItemSettings().group(ModItemGroup.NEOLITHIC)));
 
+    public static final Item BONE_KNIFE = registerItem("bone_knife",
+            new Item(new FabricItemSettings().group(ModItemGroup.NEOLITHIC)));
+
     public static Item registerItem(String name, Item item){
         return net.minecraft.util.registry.Registry.register(Registry.ITEM, new Identifier(AgeOfMechanic.MOD_ID, name), item);
     }
