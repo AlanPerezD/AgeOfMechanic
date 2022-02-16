@@ -6,7 +6,9 @@
     "P "
   ],
   "key": {
-    "P": "minecraft:stick",
+    "P": "minecraft:stick"
+  },
+    "key": {
     "S": "minecraft:flint"
   },
   "result": {
