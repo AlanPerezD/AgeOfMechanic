@@ -6,8 +6,12 @@
     "P "
   ],
   "key": {
-    "P": "minecraft:stick",
-    "S": "minecraft:flint"
+    "P": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "minecraft:flint"
+    }
   },
   "result": {
     "item": "ageofmechanic:flint_hoe"

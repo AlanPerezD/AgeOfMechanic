@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.fabricmc.ageofmechanic.AgeOfMechanic"
+    ],
+    "client": [
+      "net.fabricmc.ageofmechanic.AgeOfMechanicClient"
     ]
   },
   "mixins": [
