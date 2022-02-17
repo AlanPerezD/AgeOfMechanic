@@ -6,8 +6,12 @@
     "P  "
   ],
   "key": {
-    "P": "minecraft:stick",
-    "S": "minecraft:oak_planks"
+    "P": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "minecraft:oak_planks"
+    }
   },
   "result": {
     "item": "ageofmechanic:wooden_spear1"
