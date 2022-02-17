@@ -11,7 +11,7 @@ public class ModItemGroup {
             "neolithic"), () -> new ItemStack(ModItems.FLINT_PICKAXE));
 
     //public static final ItemGroup COPPER = FabricItemGroupBuilder.build(new Identifier(AgeOfMechanic.MOD_ID,
-    //        "copper"), () -> new ItemStack(ModItems.COPPER_PICKAXE));
+            //"copper"), () -> new ItemStack(ModItems.COPPER_PICKAXE));
 
 
     }
