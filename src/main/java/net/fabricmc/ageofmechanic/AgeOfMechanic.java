@@ -8,6 +8,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
+import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
@@ -25,7 +26,7 @@ public class AgeOfMechanic implements ModInitializer {
 	);
     public static final String MOD_ID = "ageofmechanic";
 	public static final Logger LOGGER = LoggerFactory.getLogger("MOD_ID");
-
+	public static BlockEntityType<?> DEMO_BLOCK_ENTITY;
 
 
 	@Override
