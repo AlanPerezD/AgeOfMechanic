@@ -17,8 +17,9 @@ public class ModBlocks {
     public static final Block DEMO_BLOCK = registerBlock("demo_block",
             new Block(FabricBlockSettings.of(Material.METAL).requiresTool()), ModItemGroup.NEOLITHIC);
 
+
     private static Block registerBlock(String name, Block block, ItemGroup group) {
-        registerBlock(name, block, group);
+        registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(AgeOfMechanic.MOD_ID, name), block);
     }
     private static Item registerBlockItem(String name, Block block, ItemGroup group){
