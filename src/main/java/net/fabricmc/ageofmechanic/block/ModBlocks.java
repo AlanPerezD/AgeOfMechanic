@@ -15,8 +15,7 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block DEMO_BLOCK = registerBlock("demo_block",
-            new Block(FabricBlockSettings.of(Material.METAL).requiresTool()), ModItemGroup.NEOLITHIC);
-
+            new DemoBlock(FabricBlockSettings.of(Material.METAL).strength(6.0f).requiresTool()), ModItemGroup.NEOLITHIC);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

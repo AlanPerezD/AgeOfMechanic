@@ -8,13 +8,13 @@ import net.minecraft.util.registry.Registry;
 
 import static net.fabricmc.ageofmechanic.block.ModBlocks.DEMO_BLOCK;
 
-public class AgeOfMechanicEntities {
+public class ModBlockEntities {
 
     public static BlockEntityType<DemoBlockEntity> DEMO_BLOCK_ENTITY = FabricBlockEntityTypeBuilder.create(DemoBlockEntity::new, DEMO_BLOCK).build(null);
 
 
     public static void registerBlockEntities(){
-        Registry.register(Registry.BLOCK_ENTITY_TYPE, AgeOfMechanic.MOD_ID + ":clay_urn", DEMO_BLOCK_ENTITY);
+        Registry.register(Registry.BLOCK_ENTITY_TYPE, AgeOfMechanic.MOD_ID + ":demo_block", DEMO_BLOCK_ENTITY);
     }
 
 }

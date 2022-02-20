@@ -4,12 +4,11 @@ import net.fabricmc.ageofmechanic.block.ModBlocks;
 
 import net.fabricmc.ageofmechanic.entity.CarpEntity;
 import net.fabricmc.ageofmechanic.item.ModItems;
-import net.fabricmc.ageofmechanic.registry.AgeOfMechanicEntities;
+import net.fabricmc.ageofmechanic.registry.ModBlockEntities;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
-import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
@@ -33,7 +32,7 @@ public class AgeOfMechanic implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.registerModBlock();
 		ModItems.registerModItems();
-		AgeOfMechanicEntities.registerBlockEntities();
+		ModBlockEntities.registerBlockEntities();
 		FabricDefaultAttributeRegistry.register(CARP, CarpEntity.createMobAttributes());
 	}
 }
