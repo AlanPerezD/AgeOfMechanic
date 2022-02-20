@@ -4,6 +4,7 @@ import net.fabricmc.ageofmechanic.block.ModBlocks;
 
 import net.fabricmc.ageofmechanic.entity.CarpEntity;
 import net.fabricmc.ageofmechanic.item.ModItems;
+import net.fabricmc.ageofmechanic.registry.ModBlockEntities;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
@@ -27,11 +28,11 @@ public class AgeOfMechanic implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("MOD_ID");
 
 
-
 	@Override
 	public void onInitialize() {
 		ModBlocks.registerModBlock();
 		ModItems.registerModItems();
+		ModBlockEntities.registerBlockEntities();
 		FabricDefaultAttributeRegistry.register(CARP, CarpEntity.createMobAttributes());
 	}
 }

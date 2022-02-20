@@ -1,8 +1,11 @@
 package net.fabricmc.ageofmechanic.block;
 
 import net.fabricmc.ageofmechanic.AgeOfMechanic;
+import net.fabricmc.ageofmechanic.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -11,8 +14,11 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
+    public static final Block DEMO_BLOCK = registerBlock("demo_block",
+            new DemoBlock(FabricBlockSettings.of(Material.METAL).strength(6.0f).requiresTool()), ModItemGroup.NEOLITHIC);
+
     private static Block registerBlock(String name, Block block, ItemGroup group) {
-        registerBlock(name, block, group);
+        registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(AgeOfMechanic.MOD_ID, name), block);
     }
     private static Item registerBlockItem(String name, Block block, ItemGroup group){

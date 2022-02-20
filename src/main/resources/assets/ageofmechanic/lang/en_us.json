@@ -6,6 +6,6 @@
   "item.ageofmechanic.flour": "Flour",
   "item.ageofmechanic.bone_knife": "Bone Knife",
   "item.ageofmechanic.wooden_spear1": "Wooden Spear",
-
-  "itemGroup.ageofmechanic.neolithic": "Neolithic"
+  "itemGroup.ageofmechanic.neolithic": "Neolithic",
+  "block.ageofmechanic.demo_block": "Kill me father"
 }
